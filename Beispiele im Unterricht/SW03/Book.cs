@@ -2,18 +2,17 @@
 
 public class Book
 {
-    public static int BookCount { get; set; }
+    private const int MaxBookCount = 10;
     
     public string Author { get; private set; }
 
     public Book(string author)
     {
         Author = author;
-        BookCount++;
     }
 
-    public string GetBookCount()
+    public static int Add(int a, int b)
     {
-        return $"{Author} Bookcount: {BookCount}";
+        return a + b;
     }
 }
