@@ -1,6 +1,6 @@
 namespace SW03.Test;
 
-public class Tests
+public class StaticVsNonStaticExample
 {
     [SetUp]
     public void Setup()
