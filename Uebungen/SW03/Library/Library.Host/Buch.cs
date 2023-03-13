@@ -12,4 +12,9 @@ public class Buch
         this.autor = autor;
         this.veroeffentlichungsdatum = veroeffentlichungsdatum;
     }
+
+    public override string ToString()
+    {
+        return $"Titel: {titel} - {autor}, veröffentlicht am: {veroeffentlichungsdatum:dd.MM.yyyy}";
+    }
 }
