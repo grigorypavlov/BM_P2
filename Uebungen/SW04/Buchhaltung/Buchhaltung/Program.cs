@@ -3,13 +3,9 @@
 
 using Buchhaltung;
 
-var rechnung = new Rechnung();
-rechnung.BetragOffen = 10m;
+var rechnung = new Rechnung(10m);
+var zahlung = new Zahlung(5m);
 
-Zahlung zahlung = new Zahlung();
-zahlung.Betrag = 5m;
+rechnung.Add(zahlung);
 
-var rechnungService = new RechnungService();
-var state = rechnungService.AddZahlungToRechnung(rechnung, zahlung);
-
-Console.WriteLine($"Betrag offen: {rechnung.BetragOffen}, state = {state}");
+Console.WriteLine($"Betrag offen: {rechnung.BetragOffen}, state = {rechnung.State}");
