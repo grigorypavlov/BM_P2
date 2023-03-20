@@ -11,3 +11,5 @@ zahlung.Betrag = 5m;
 
 var rechnungService = new RechnungService();
 var state = rechnungService.AddZahlungToRechnung(rechnung, zahlung);
+
+Console.WriteLine($"Betrag offen: {rechnung.BetragOffen}, state = {state}");
