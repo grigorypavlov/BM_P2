@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Host", "Library.Hos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Test", "Library.Test\Library.Test.csproj", "{46ECA633-C9F3-4935-B787-30261DCA6E7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndInterfaces", "ClassesAndInterfaces\ClassesAndInterfaces.csproj", "{CD0D9A7E-644F-4E6B-B44B-E6EF922CE69F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{46ECA633-C9F3-4935-B787-30261DCA6E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46ECA633-C9F3-4935-B787-30261DCA6E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46ECA633-C9F3-4935-B787-30261DCA6E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0D9A7E-644F-4E6B-B44B-E6EF922CE69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0D9A7E-644F-4E6B-B44B-E6EF922CE69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0D9A7E-644F-4E6B-B44B-E6EF922CE69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0D9A7E-644F-4E6B-B44B-E6EF922CE69F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
