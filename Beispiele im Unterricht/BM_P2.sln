@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOpsStuff", "DevOpsStuff"
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abgabearbeit_gross", "Abgabearbeit_gross\Abgabearbeit_gross.csproj", "{319F2785-0748-4A5F-9E66-12985DC728DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,9 @@ Global
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319F2785-0748-4A5F-9E66-12985DC728DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319F2785-0748-4A5F-9E66-12985DC728DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319F2785-0748-4A5F-9E66-12985DC728DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319F2785-0748-4A5F-9E66-12985DC728DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
