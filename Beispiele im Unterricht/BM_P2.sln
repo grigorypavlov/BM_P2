@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOpsStuff", "DevOpsStuff"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abgabearbeit_gross", "Abgabearbeit_gross\Abgabearbeit_gross.csproj", "{319F2785-0748-4A5F-9E66-12985DC728DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abgabearbeit_gross.Tests", "Abgabearbeit_gross.Tests\Abgabearbeit_gross.Tests.csproj", "{E2586D1E-5664-4574-BE81-54AE7A7DA49A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +43,9 @@ Global
 		{319F2785-0748-4A5F-9E66-12985DC728DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319F2785-0748-4A5F-9E66-12985DC728DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319F2785-0748-4A5F-9E66-12985DC728DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2586D1E-5664-4574-BE81-54AE7A7DA49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2586D1E-5664-4574-BE81-54AE7A7DA49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2586D1E-5664-4574-BE81-54AE7A7DA49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2586D1E-5664-4574-BE81-54AE7A7DA49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
