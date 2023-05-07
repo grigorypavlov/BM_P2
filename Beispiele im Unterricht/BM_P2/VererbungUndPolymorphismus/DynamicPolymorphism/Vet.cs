@@ -2,4 +2,8 @@
 
 public class Vet
 {
+    public void Treat(IAnimal animal)
+    {
+        Console.WriteLine(animal.MakeSound());
+    }
 }
