@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BM_P2_Class_vs_objects", "BM_P2_Class_vs_objects\BM_P2_Class_vs_objects.csproj", "{C4BA177C-0F14-4368-81A4-764B9F00C3F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{87B04236-625D-4268-AADA-361F8085F630}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW03", "SW03\SW03.csproj", "{A7B6E6A3-DF10-4349-A3C4-5E19B7B8B654}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW03.Test", "SW03.Test\SW03.Test.csproj", "{205CB378-F9FB-46B1-B91A-5057C85C12EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BM_P2.Test", "BM_P2.Test\BM_P2.Test.csproj", "{205CB378-F9FB-46B1-B91A-5057C85C12EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOpsStuff", "DevOpsStuff", "{BA1B47ED-D527-41DD-B956-6DEB4BEB9A34}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BM_P2", "BM_P2\BM_P2.csproj", "{F3FC7E8F-682B-4650-8142-69EF63A6B3EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,21 +15,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4BA177C-0F14-4368-81A4-764B9F00C3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4BA177C-0F14-4368-81A4-764B9F00C3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4BA177C-0F14-4368-81A4-764B9F00C3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4BA177C-0F14-4368-81A4-764B9F00C3F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87B04236-625D-4268-AADA-361F8085F630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87B04236-625D-4268-AADA-361F8085F630}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87B04236-625D-4268-AADA-361F8085F630}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87B04236-625D-4268-AADA-361F8085F630}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7B6E6A3-DF10-4349-A3C4-5E19B7B8B654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7B6E6A3-DF10-4349-A3C4-5E19B7B8B654}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7B6E6A3-DF10-4349-A3C4-5E19B7B8B654}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7B6E6A3-DF10-4349-A3C4-5E19B7B8B654}.Release|Any CPU.Build.0 = Release|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205CB378-F9FB-46B1-B91A-5057C85C12EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FC7E8F-682B-4650-8142-69EF63A6B3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FC7E8F-682B-4650-8142-69EF63A6B3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FC7E8F-682B-4650-8142-69EF63A6B3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FC7E8F-682B-4650-8142-69EF63A6B3EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

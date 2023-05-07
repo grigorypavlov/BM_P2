@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>SW03.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SW03\SW03.csproj" />
+      <ProjectReference Include="..\BM_P2\BM_P2.csproj" />
     </ItemGroup>
 
 </Project>
