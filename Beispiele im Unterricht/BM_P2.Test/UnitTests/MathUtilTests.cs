@@ -18,3 +18,11 @@ public class MathUtilTests
         Assert.AreEqual(15, result);
     }
 }
+
+public class MathUtil
+{
+    public int Add(int i, int i1)
+    {
+        return i + i1;
+    }
+}

@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace SW03.Test.UnitTests;
 
 [TestFixture]
@@ -11,7 +13,7 @@ public class StringHelperTests
         string input = "Hello, World!";
 
         // Act
-        string result = stringHelper.ReverseString(input);
+        string? result = stringHelper.ReverseString(input);
 
         // Assert
         Assert.AreEqual("!dlroW ,olleH", result);
@@ -25,9 +27,23 @@ public class StringHelperTests
         string input = "";
 
         // Act
-        string result = stringHelper.ReverseString(input);
+        string? result = stringHelper.ReverseString(input);
 
         // Assert
         Assert.AreEqual("", result);
+    }
+}
+
+public class StringHelper
+{
+    public string? ReverseString(string input)
+    {
+        StringBuilder xy = new StringBuilder();
+        foreach (var c in input.Reverse())
+        {
+            xy.Append(c);
+        }
+
+        return xy.ToString();
     }
 }
