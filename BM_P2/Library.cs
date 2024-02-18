@@ -6,6 +6,7 @@ public class Library
 
     public void AddBook(Book orwell)
     {
+        _books.Add(orwell);
     }
 
     public IReadOnlyCollection<Book> Books => _books;
