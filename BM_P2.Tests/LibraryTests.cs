@@ -9,13 +9,17 @@ public class LibraryTests
     [Fact]
     public void BookShouldBeAddedToLibrary()
     {
-        var orwell = new Book("1984", "George Orwell", new DateTime(1949, 6, 1));
+        const string expectedTitle = "1984";
+        const string expectedAuthor = "George Orwell";
+        DateTime expectedDateTime = new(1949, 6, 1);
+        var orwell = new Book(expectedTitle, expectedAuthor, expectedDateTime);
+
         _testee.AddBook(orwell);
 
         _testee.Books.Should().Contain(orwell);
         var first = _testee.Books.First();
-        first.Title.Should().Be("1984");
-        first.Author.Should().Be("George Orwell");
-        first.Published.Should().Be(new DateTime(1949, 6, 1));
+        first.Title.Should().Be(expectedTitle);
+        first.Author.Should().Be(expectedAuthor);
+        first.Published.Should().Be(expectedDateTime);
     }
 }
