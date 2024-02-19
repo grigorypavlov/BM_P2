@@ -7,5 +7,5 @@ public class Payment
         Betrag = betrag;
     }
 
-    public decimal Betrag { get; set; }
+    public decimal Betrag { get; }
 }
