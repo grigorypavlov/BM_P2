@@ -12,7 +12,7 @@ public class Invoice
     public decimal Amount { get; }
     public decimal AmountOpen { get; set; }
     
-    public InvoiceState AddPaymentToInvoice(Invoice invoice, Payment payment)
+    public InvoiceState AddPaymentToInvoice(Payment payment)
     {
         this.AmountOpen -= payment.Betrag;
         if (this.AmountOpen > 0)
