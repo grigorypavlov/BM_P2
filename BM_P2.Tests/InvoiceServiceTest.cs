@@ -11,7 +11,6 @@ public class InvoiceTest
     {
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 5m);
-        var sut = new InvoiceService();
         
         var state = invoice.AddPaymentToInvoice(payment);
 
@@ -25,7 +24,6 @@ public class InvoiceTest
     {
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 10m);
-        var sut = new InvoiceService();
         
         var state = invoice.AddPaymentToInvoice(payment);
 
@@ -39,7 +37,6 @@ public class InvoiceTest
     {
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 11m);
-        var sut = new InvoiceService();
         
         var state = invoice.AddPaymentToInvoice(payment);
 
