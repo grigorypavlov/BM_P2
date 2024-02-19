@@ -2,5 +2,10 @@
 
 public class Payment
 {
+    public Payment(decimal betrag)
+    {
+        Betrag = betrag;
+    }
+
     public decimal Betrag { get; set; }
 }

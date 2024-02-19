@@ -10,8 +10,7 @@ public class InvoiceTest
     public void InvoiceShouldBePaidPartiallyWhenAmountOfPaymentSmallerThanAmountOpen()
     {
         var invoice = new Invoice(amount: 10m);
-        var payment = new Payment();
-        payment.Betrag = 5m;
+        var payment = new Payment(betrag: 5m);
         var sut = new InvoiceService();
         
         var state = sut.AddPaymentToInvoice(invoice, payment);
@@ -25,8 +24,7 @@ public class InvoiceTest
     public void InvoiceShouldBePaidWhenAmountOfPaymentEqualToAmountOpen()
     {
         var invoice = new Invoice(amount: 10m);
-        var payment = new Payment();
-        payment.Betrag = 10m;
+        var payment = new Payment(betrag: 10m);
         var sut = new InvoiceService();
         
         var state = sut.AddPaymentToInvoice(invoice, payment);
@@ -40,8 +38,7 @@ public class InvoiceTest
     public void InvoiceShouldBeOverPaidWhenAmountOfPaymentGreaterThanAmountOpen()
     {
         var invoice = new Invoice(amount: 10m);
-        var payment = new Payment();
-        payment.Betrag = 11m;
+        var payment = new Payment(betrag: 11m);
         var sut = new InvoiceService();
         
         var state = sut.AddPaymentToInvoice(invoice, payment);
