@@ -10,7 +10,7 @@ public class Invoice
     
     // TODO: Properties sollten Readonly sein.
     public decimal Amount { get; }
-    public decimal AmountOpen { get; set; }
+    public decimal AmountOpen { get; private set; }
     
     public InvoiceState AddPaymentToInvoice(Payment payment)
     {
