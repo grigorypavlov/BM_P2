@@ -9,6 +9,6 @@ public class Invoice
     }
     
     // TODO: Properties sollten Readonly sein.
-    public decimal Amount { get; set; }
+    public decimal Amount { get; }
     public decimal AmountOpen { get; set; }
 }
