@@ -6,4 +6,4 @@ var invoice = new Invoice(10m);
 
 var payment = new Payment(betrag: 5m);
 
-var state = invoice.AddPaymentToInvoice(payment);
+var state = invoice.Pay(payment);

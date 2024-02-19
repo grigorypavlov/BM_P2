@@ -12,7 +12,7 @@ public class InvoiceTest
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 5m);
         
-        var state = invoice.AddPaymentToInvoice(payment);
+        var state = invoice.Pay(payment);
 
         state.Should().Be(InvoiceState.PartiallyPaid);
         invoice.Amount.Should().Be(10m);
@@ -25,7 +25,7 @@ public class InvoiceTest
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 10m);
         
-        var state = invoice.AddPaymentToInvoice(payment);
+        var state = invoice.Pay(payment);
 
         state.Should().Be(InvoiceState.Paid);
         invoice.Amount.Should().Be(10m);
@@ -38,7 +38,7 @@ public class InvoiceTest
         var invoice = new Invoice(amount: 10m);
         var payment = new Payment(betrag: 11m);
         
-        var state = invoice.AddPaymentToInvoice(payment);
+        var state = invoice.Pay(payment);
 
         state.Should().Be(InvoiceState.OverPaid);
         invoice.Amount.Should().Be(10m);
