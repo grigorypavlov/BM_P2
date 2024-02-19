@@ -2,8 +2,7 @@
 
 using BM_P2;
 
-var invoice = new Invoice();
-invoice.AmountOpen = 10m;
+var invoice = new Invoice(10m);
 
 var payment = new Payment();
 payment.Betrag = 5m;
