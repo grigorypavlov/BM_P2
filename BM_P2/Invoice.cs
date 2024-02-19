@@ -14,13 +14,13 @@ public class Invoice
     
     public InvoiceState AddPaymentToInvoice(Invoice invoice, Payment payment)
     {
-        invoice.AmountOpen -= payment.Betrag;
-        if (invoice.AmountOpen > 0)
+        this.AmountOpen -= payment.Betrag;
+        if (this.AmountOpen > 0)
         {
             return InvoiceState.PartiallyPaid;
         }
 
-        if (invoice.AmountOpen == 0)
+        if (this.AmountOpen == 0)
         {
             return InvoiceState.Paid;
         }
