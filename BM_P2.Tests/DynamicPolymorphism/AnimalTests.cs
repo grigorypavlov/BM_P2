@@ -17,5 +17,14 @@ public class AnimalTests
             
             animalSound.Should().NotBeEmpty();
         });
+        animals.Should().HaveCount(1);
+        animals[0].Should().BeOfType<Dog>();
+    }
+
+    [Fact]
+    public void DogShouldWoof()
+    {
+        var bello = new Dog();
+        bello.MakeSound().Should().Be("Woof");
     }
 }
