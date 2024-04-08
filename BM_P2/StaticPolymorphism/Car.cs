@@ -18,4 +18,14 @@ public class Car
     {
         return _accelerationKmhPerSecond * seconds;
     }
+
+    public int Drive(int seconds, int maxSpeed)
+    {
+        if (_accelerationKmhPerSecond * seconds > maxSpeed)
+        {
+            return maxSpeed;
+        }
+
+        return _accelerationKmhPerSecond * seconds;
+    }
 }
