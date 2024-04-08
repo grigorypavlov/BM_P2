@@ -22,4 +22,10 @@ public class CarTests
     {
         _testee.Drive(2).Should().Be(6);
     }
+
+    [Fact]
+    public void WhenCarDrivesForSixSecondsWithMaxSpeedLimitItsSpeedShouldNotBeHigherThanTheSpeedLimit()
+    {
+        _testee.Drive(6, 3).Should().Be(3);
+    }
 }
