@@ -13,4 +13,9 @@ public class Car
     {
         return _accelerationKmhPerSecond;
     }
+
+    public int Drive(int seconds)
+    {
+        return _accelerationKmhPerSecond * seconds;
+    }
 }
