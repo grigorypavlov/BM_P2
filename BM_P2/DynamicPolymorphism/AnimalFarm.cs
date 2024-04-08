@@ -6,6 +6,7 @@ public class AnimalFarm
     {
         var animals = new List<IAnimal>();
         animals.Add(new Dog());
+        animals.Add(new Cat());
         return animals;
     }
 }
