@@ -17,9 +17,10 @@ public class AnimalTests
             
             animalSound.Should().NotBeEmpty();
         });
-        animals.Should().HaveCount(2);
+        animals.Should().HaveCount(3);
         animals[0].Should().BeOfType<Dog>();
         animals[1].Should().BeOfType<Cat>();
+        animals[2].Should().BeOfType<Chicken>();
     }
 
     [Fact]
@@ -34,5 +35,12 @@ public class AnimalTests
     {
         var ciri = new Cat();
         ciri.MakeSound().Should().Be("Miauw");
+    }
+
+    [Fact]
+    public void ChickenShouldGack()
+    {
+        var chicken = new Chicken();
+        chicken.MakeSound().Should().Be("Gack gack");
     }
 }
