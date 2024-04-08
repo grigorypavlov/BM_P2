@@ -16,4 +16,10 @@ public class CarTests
     {
         _testee.Drive().Should().Be(3);
     }
+
+    [Fact]
+    public void WhenCarDrivesForTwoSecondsItsSpeedIsSixKmh()
+    {
+        _testee.Drive(2).Should().Be(6);
+    }
 }
