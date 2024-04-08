@@ -5,6 +5,7 @@ public class AnimalFarm
     public IEnumerable<IAnimal> GetAllAnimals()
     {
         var animals = new List<IAnimal>();
+        animals.Add(new Dog());
         return animals;
     }
 }
