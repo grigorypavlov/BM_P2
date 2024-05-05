@@ -2,11 +2,8 @@ namespace BM_P2;
 
 public class Human
 {
-    public string Read(Book book)
+    public string Read(IPublication publication)
     {
-    }
-
-    public string Read(Magazine magazine)
-    {
+        return publication.GetInformation();
     }
 }
