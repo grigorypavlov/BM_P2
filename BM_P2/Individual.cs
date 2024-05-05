@@ -1,12 +1,12 @@
 ﻿namespace BM_P2;
 
-public class Individual
+public class Individual : Human, IPerson
 {
     public Individual(
         string name,
         string firstName,
         int sizeInCm,
-        int weightInKg)
+        int weightInKg) : base(sizeInCm, weightInKg)
     {
         Name = name;
         FirstName = firstName;
